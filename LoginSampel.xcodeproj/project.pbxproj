@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C8BF5A276FB28CDE7A09891 /* Pods_LoginSampel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB2AD84AAE3605356B47963 /* Pods_LoginSampel.framework */; };
+		FD1331F625262231007E5C12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1331F525262231007E5C12 /* Constants.swift */; };
+		FD1359162527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
+		FD1359172527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
+		FD1359182527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
+		FD13591A2527E3BE0011E328 /* Sidewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359192527E3BE0011E328 /* Sidewalk.mp4 */; };
 		FD827E2325225FD400EE97BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2225225FD400EE97BA /* AppDelegate.swift */; };
 		FD827E2525225FD400EE97BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2425225FD400EE97BA /* SceneDelegate.swift */; };
 		FD827E2725225FD400EE97BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2625225FD400EE97BA /* ViewController.swift */; };
@@ -15,6 +21,11 @@
 		FD827E2F25225FD600EE97BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD827E2D25225FD600EE97BA /* LaunchScreen.storyboard */; };
 		FD827E3A25225FD600EE97BA /* LoginSampelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E3925225FD600EE97BA /* LoginSampelTests.swift */; };
 		FD827E4525225FD600EE97BA /* LoginSampelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E4425225FD600EE97BA /* LoginSampelUITests.swift */; };
+		FD827E53252264D000EE97BA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E52252264D000EE97BA /* SignUpViewController.swift */; };
+		FD827E552522652900EE97BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E542522652900EE97BA /* LoginViewController.swift */; };
+		FD827E572522655700EE97BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E562522655700EE97BA /* HomeViewController.swift */; };
+		FD827E5A25239C5200EE97BA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E5925239C5200EE97BA /* Utilities.swift */; };
+		FD827E5F2524D15300EE97BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD827E5E2524D15300EE97BA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74498F98776587067F139ADA /* Pods-LoginSampel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampel.debug.xcconfig"; path = "Target Support Files/Pods-LoginSampel/Pods-LoginSampel.debug.xcconfig"; sourceTree = "<group>"; };
+		CD8C93C394FA035F6BD429CB /* Pods-LoginSampel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampel.release.xcconfig"; path = "Target Support Files/Pods-LoginSampel/Pods-LoginSampel.release.xcconfig"; sourceTree = "<group>"; };
+		FBB2AD84AAE3605356B47963 /* Pods_LoginSampel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSampel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1331F525262231007E5C12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FD1359152527BE8B0011E328 /* NewYear.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYear.mp4; sourceTree = "<group>"; };
+		FD1359192527E3BE0011E328 /* Sidewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sidewalk.mp4; sourceTree = "<group>"; };
 		FD827E1F25225FD400EE97BA /* LoginSampel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSampel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD827E2225225FD400EE97BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD827E2425225FD400EE97BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		FD827E4025225FD600EE97BA /* LoginSampelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSampelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD827E4425225FD600EE97BA /* LoginSampelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSampelUITests.swift; sourceTree = "<group>"; };
 		FD827E4625225FD600EE97BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD827E52252264D000EE97BA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FD827E542522652900EE97BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD827E562522655700EE97BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FD827E5925239C5200EE97BA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FD827E5E2524D15300EE97BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8BF5A276FB28CDE7A09891 /* Pods_LoginSampel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9026E5695065BF535C4A7723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74498F98776587067F139ADA /* Pods-LoginSampel.debug.xcconfig */,
+				CD8C93C394FA035F6BD429CB /* Pods-LoginSampel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD1331F72526408B007E5C12 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FD1359152527BE8B0011E328 /* NewYear.mp4 */,
+				FD1359192527E3BE0011E328 /* Sidewalk.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		FD2390668B54801E7AEDEBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2AD84AAE3605356B47963 /* Pods_LoginSampel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD827E1625225FD400EE97BA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				FD827E3825225FD600EE97BA /* LoginSampelTests */,
 				FD827E4325225FD600EE97BA /* LoginSampelUITests */,
 				FD827E2025225FD400EE97BA /* Products */,
+				9026E5695065BF535C4A7723 /* Pods */,
+				FD2390668B54801E7AEDEBF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,16 @@
 		FD827E2125225FD400EE97BA /* LoginSampel */ = {
 			isa = PBXGroup;
 			children = (
+				FD827E582522658A00EE97BA /* View Controllers */,
 				FD827E2225225FD400EE97BA /* AppDelegate.swift */,
 				FD827E2425225FD400EE97BA /* SceneDelegate.swift */,
-				FD827E2625225FD400EE97BA /* ViewController.swift */,
 				FD827E2825225FD400EE97BA /* Main.storyboard */,
 				FD827E2B25225FD600EE97BA /* Assets.xcassets */,
 				FD827E2D25225FD600EE97BA /* LaunchScreen.storyboard */,
+				FD827E5E2524D15300EE97BA /* GoogleService-Info.plist */,
 				FD827E3025225FD600EE97BA /* Info.plist */,
+				FD1331F72526408B007E5C12 /* Media */,
+				FD827E5B25239C7600EE97BA /* Helper */,
 			);
 			path = LoginSampel;
 			sourceTree = "<group>";
@@ -128,6 +182,26 @@
 			path = LoginSampelUITests;
 			sourceTree = "<group>";
 		};
+		FD827E582522658A00EE97BA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD827E562522655700EE97BA /* HomeViewController.swift */,
+				FD827E2625225FD400EE97BA /* ViewController.swift */,
+				FD827E542522652900EE97BA /* LoginViewController.swift */,
+				FD827E52252264D000EE97BA /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FD827E5B25239C7600EE97BA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FD827E5925239C5200EE97BA /* Utilities.swift */,
+				FD1331F525262231007E5C12 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD827E4925225FD600EE97BA /* Build configuration list for PBXNativeTarget "LoginSampel" */;
 			buildPhases = (
+				274207E56406D5DF8166B12C /* [CP] Check Pods Manifest.lock */,
 				FD827E1B25225FD400EE97BA /* Sources */,
 				FD827E1C25225FD400EE97BA /* Frameworks */,
 				FD827E1D25225FD400EE97BA /* Resources */,
+				24BEEAD87240CD01D5B7DEA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +308,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD827E5F2524D15300EE97BA /* GoogleService-Info.plist in Resources */,
+				FD1359162527BE8B0011E328 /* NewYear.mp4 in Resources */,
 				FD827E2F25225FD600EE97BA /* LaunchScreen.storyboard in Resources */,
 				FD827E2C25225FD600EE97BA /* Assets.xcassets in Resources */,
 				FD827E2A25225FD400EE97BA /* Main.storyboard in Resources */,
+				FD13591A2527E3BE0011E328 /* Sidewalk.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1359172527BE8B0011E328 /* NewYear.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +329,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1359182527BE8B0011E328 /* NewYear.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24BEEAD87240CD01D5B7DEA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSampel/Pods-LoginSampel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSampel/Pods-LoginSampel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginSampel/Pods-LoginSampel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		274207E56406D5DF8166B12C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginSampel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD827E1B25225FD400EE97BA /* Sources */ = {
@@ -261,7 +384,12 @@
 			files = (
 				FD827E2725225FD400EE97BA /* ViewController.swift in Sources */,
 				FD827E2325225FD400EE97BA /* AppDelegate.swift in Sources */,
+				FD827E5A25239C5200EE97BA /* Utilities.swift in Sources */,
+				FD827E53252264D000EE97BA /* SignUpViewController.swift in Sources */,
+				FD827E552522652900EE97BA /* LoginViewController.swift in Sources */,
 				FD827E2525225FD400EE97BA /* SceneDelegate.swift in Sources */,
+				FD827E572522655700EE97BA /* HomeViewController.swift in Sources */,
+				FD1331F625262231007E5C12 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +560,7 @@
 		};
 		FD827E4A25225FD600EE97BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74498F98776587067F139ADA /* Pods-LoginSampel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +578,7 @@
 		};
 		FD827E4B25225FD600EE97BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8C93C394FA035F6BD429CB /* Pods-LoginSampel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
