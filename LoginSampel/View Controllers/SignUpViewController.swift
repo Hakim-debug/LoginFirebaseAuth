@@ -30,7 +30,11 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+//        _ = UITextField(frame: CGRect(x: 0, y: 0, width: 180, height: 21))
+//        firstNameTextField.attributedPlaceholder = NSAttributedString(string: "FirstName", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+//        
         // Do any additional setup after loading the view.
         setUpElements()
     }
@@ -52,6 +56,7 @@ class SignUpViewController: UIViewController {
         
 
     }
+    
 //This functions Checks if the text fields data is correct.
     //Otherwise it returns the error massage
     func validateTextFields() -> String?{
@@ -129,4 +134,6 @@ class SignUpViewController: UIViewController {
         view.window?.rootViewController = homeViewController
         view.window?.makeKeyAndVisible()
     }
+    
+    
 }

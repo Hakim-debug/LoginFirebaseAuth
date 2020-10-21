@@ -12,7 +12,6 @@
 		FD1359162527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
 		FD1359172527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
 		FD1359182527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
-		FD13591A2527E3BE0011E328 /* Sidewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359192527E3BE0011E328 /* Sidewalk.mp4 */; };
 		FD827E2325225FD400EE97BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2225225FD400EE97BA /* AppDelegate.swift */; };
 		FD827E2525225FD400EE97BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2425225FD400EE97BA /* SceneDelegate.swift */; };
 		FD827E2725225FD400EE97BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2625225FD400EE97BA /* ViewController.swift */; };
@@ -51,7 +50,6 @@
 		FBB2AD84AAE3605356B47963 /* Pods_LoginSampel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSampel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1331F525262231007E5C12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FD1359152527BE8B0011E328 /* NewYear.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYear.mp4; sourceTree = "<group>"; };
-		FD1359192527E3BE0011E328 /* Sidewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sidewalk.mp4; sourceTree = "<group>"; };
 		FD827E1F25225FD400EE97BA /* LoginSampel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSampel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD827E2225225FD400EE97BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD827E2425225FD400EE97BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				FD1359152527BE8B0011E328 /* NewYear.mp4 */,
-				FD1359192527E3BE0011E328 /* Sidewalk.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -313,7 +310,6 @@
 				FD827E2F25225FD600EE97BA /* LaunchScreen.storyboard in Resources */,
 				FD827E2C25225FD600EE97BA /* Assets.xcassets in Resources */,
 				FD827E2A25225FD400EE97BA /* Main.storyboard in Resources */,
-				FD13591A2527E3BE0011E328 /* Sidewalk.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

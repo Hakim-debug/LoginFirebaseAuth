@@ -110,13 +110,15 @@
                                 <rect key="frame" x="30" y="2" width="45" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Cn1-zs-ke2"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="63b-dO-eOO" firstAttribute="leading" secondItem="suf-vP-vqz" secondAttribute="leading" constant="40" id="4en-ge-erg"/>
                             <constraint firstItem="63b-dO-eOO" firstAttribute="top" secondItem="fhx-w3-Qwq" secondAttribute="bottom" constant="8" id="723-dE-PyL"/>
@@ -151,13 +153,15 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CsK-cG-LdA">
                                 <rect key="frame" x="40" y="40" width="295" height="370.33333333333331"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="khR-ea-w4H">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="khR-ea-w4H" colorLabel="IBBuiltInLabel-Green">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="50"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LastName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dld-i8-P8M">
                                         <rect key="frame" x="0.0" y="70" width="295" height="50"/>
+                                        <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -198,23 +202,24 @@
                                     <constraint firstItem="dld-i8-P8M" firstAttribute="width" secondItem="khR-ea-w4H" secondAttribute="width" id="uTk-sx-wU7"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-CZ-4ff">
-                                <rect key="frame" x="27" y="2" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-CZ-4ff">
+                                <rect key="frame" x="40" y="31" width="46" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="2Jd-Tn-gzQ"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="YcR-8U-jXq" firstAttribute="trailing" secondItem="TFf-CZ-4ff" secondAttribute="trailing" constant="289" id="3kr-Hm-V7W"/>
                             <constraint firstItem="TFf-CZ-4ff" firstAttribute="top" secondItem="wla-yl-zFD" secondAttribute="top" constant="31" id="4YV-QN-zEF"/>
                             <constraint firstItem="YcR-8U-jXq" firstAttribute="trailing" secondItem="CsK-cG-LdA" secondAttribute="trailing" constant="40" id="ECM-0H-Mi0"/>
                             <constraint firstItem="CsK-cG-LdA" firstAttribute="leading" secondItem="YcR-8U-jXq" secondAttribute="leading" constant="40" id="LnF-cg-BFh"/>
-                            <constraint firstItem="TFf-CZ-4ff" firstAttribute="leading" secondItem="YcR-8U-jXq" secondAttribute="leading" constant="40" id="MbW-Jc-eF6"/>
                             <constraint firstItem="TFf-CZ-4ff" firstAttribute="leading" secondItem="YcR-8U-jXq" secondAttribute="leading" constant="40" id="RLZ-ys-hUL"/>
                             <constraint firstItem="CsK-cG-LdA" firstAttribute="top" secondItem="YcR-8U-jXq" secondAttribute="top" constant="40" id="eqc-SM-Fq1"/>
                         </constraints>
@@ -234,7 +239,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BpL-TW-qsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1916" y="119"/>
+            <point key="canvasLocation" x="1916" y="118.96551724137932"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="JO9-Je-uBZ">
@@ -282,6 +287,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Cn1-zs-ke2"/>
+        <segue reference="2Jd-Tn-gzQ"/>
     </inferredMetricsTieBreakers>
 </document>
