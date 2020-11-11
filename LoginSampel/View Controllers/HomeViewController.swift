@@ -8,15 +8,34 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: ViewController{
+    
+    
+var text = ""
+    
+    @IBOutlet weak var userNameInput: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-   
+        
+        userNameInput.text = getSeleted()
 
         // Do any additional setup after loading the view.
     }
-      
+    func getSeleted() -> String{
+        return self.text
+    }
+    func selectedName(text:String) {
+        
+      self.text = text
+        
+    }
+    
+
+    
+
 
 
 }

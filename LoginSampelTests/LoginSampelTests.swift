@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import LoginSampel
+
 
 class LoginSampelTests: XCTestCase {
 

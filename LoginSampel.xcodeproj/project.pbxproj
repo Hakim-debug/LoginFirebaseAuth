@@ -12,6 +12,8 @@
 		FD1359162527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
 		FD1359172527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
 		FD1359182527BE8B0011E328 /* NewYear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1359152527BE8B0011E328 /* NewYear.mp4 */; };
+		FD23A7142555C40C00C5E310 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23A7132555C40C00C5E310 /* Users.swift */; };
+		FD3889C925543C4000FC25F4 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3889C825543C4000FC25F4 /* NewViewController.swift */; };
 		FD827E2325225FD400EE97BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2225225FD400EE97BA /* AppDelegate.swift */; };
 		FD827E2525225FD400EE97BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2425225FD400EE97BA /* SceneDelegate.swift */; };
 		FD827E2725225FD400EE97BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E2625225FD400EE97BA /* ViewController.swift */; };
@@ -25,6 +27,9 @@
 		FD827E572522655700EE97BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E562522655700EE97BA /* HomeViewController.swift */; };
 		FD827E5A25239C5200EE97BA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD827E5925239C5200EE97BA /* Utilities.swift */; };
 		FD827E5F2524D15300EE97BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD827E5E2524D15300EE97BA /* GoogleService-Info.plist */; };
+		FDB302182550483B004576B8 /* signUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB302172550483B004576B8 /* signUpModel.swift */; };
+		FDB3021B25504971004576B8 /* signUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3021A25504971004576B8 /* signUpController.swift */; };
+		FDB3021D255052CD004576B8 /* PickViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB3021C255052CD004576B8 /* PickViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,8 @@
 		FBB2AD84AAE3605356B47963 /* Pods_LoginSampel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginSampel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1331F525262231007E5C12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FD1359152527BE8B0011E328 /* NewYear.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYear.mp4; sourceTree = "<group>"; };
+		FD23A7132555C40C00C5E310 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		FD3889C825543C4000FC25F4 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		FD827E1F25225FD400EE97BA /* LoginSampel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSampel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD827E2225225FD400EE97BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD827E2425225FD400EE97BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +76,9 @@
 		FD827E562522655700EE97BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD827E5925239C5200EE97BA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FD827E5E2524D15300EE97BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDB302172550483B004576B8 /* signUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpModel.swift; sourceTree = "<group>"; };
+		FDB3021A25504971004576B8 /* signUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpController.swift; sourceTree = "<group>"; };
+		FDB3021C255052CD004576B8 /* PickViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,8 @@
 		FD827E1625225FD400EE97BA = {
 			isa = PBXGroup;
 			children = (
+				FDB30219255048FF004576B8 /* Controllers */,
+				FDB3021625504796004576B8 /* Models */,
 				FD827E2125225FD400EE97BA /* LoginSampel */,
 				FD827E3825225FD600EE97BA /* LoginSampelTests */,
 				FD827E4325225FD600EE97BA /* LoginSampelUITests */,
@@ -186,6 +198,8 @@
 				FD827E2625225FD400EE97BA /* ViewController.swift */,
 				FD827E542522652900EE97BA /* LoginViewController.swift */,
 				FD827E52252264D000EE97BA /* SignUpViewController.swift */,
+				FDB3021C255052CD004576B8 /* PickViewer.swift */,
+				FD3889C825543C4000FC25F4 /* NewViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -197,6 +211,23 @@
 				FD1331F525262231007E5C12 /* Constants.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		FDB3021625504796004576B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDB302172550483B004576B8 /* signUpModel.swift */,
+				FD23A7132555C40C00C5E310 /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDB30219255048FF004576B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3021A25504971004576B8 /* signUpController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,10 +410,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD827E2725225FD400EE97BA /* ViewController.swift in Sources */,
+				FDB302182550483B004576B8 /* signUpModel.swift in Sources */,
 				FD827E2325225FD400EE97BA /* AppDelegate.swift in Sources */,
+				FD3889C925543C4000FC25F4 /* NewViewController.swift in Sources */,
+				FDB3021B25504971004576B8 /* signUpController.swift in Sources */,
 				FD827E5A25239C5200EE97BA /* Utilities.swift in Sources */,
 				FD827E53252264D000EE97BA /* SignUpViewController.swift in Sources */,
 				FD827E552522652900EE97BA /* LoginViewController.swift in Sources */,
+				FDB3021D255052CD004576B8 /* PickViewer.swift in Sources */,
+				FD23A7142555C40C00C5E310 /* Users.swift in Sources */,
 				FD827E2525225FD400EE97BA /* SceneDelegate.swift in Sources */,
 				FD827E572522655700EE97BA /* HomeViewController.swift in Sources */,
 				FD1331F625262231007E5C12 /* Constants.swift in Sources */,

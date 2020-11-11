@@ -23,12 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        setUpElements()
-        
-    }
     
     override func viewWillAppear(_ animated: Bool) {
         //Setting up the viedo in the Background
@@ -38,13 +32,7 @@ class ViewController: UIViewController {
 
     
     
-    func setUpElements(){
-        
-        //Style the elemants
-        Utilities.styleFilledButton(singUpButton)
-        Utilities.styleHollowButton(loginButton)
-        
-    }
+  
     
     func setUpVideo(){
         
